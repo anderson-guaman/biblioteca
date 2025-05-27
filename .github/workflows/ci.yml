@@ -49,6 +49,6 @@ jobs:
         with:
           name: Maven-Reports
           path: |
-            biblioteca/target/site/jacoco/jacoco.xml
-            biblioteca/target/checkstyle-result.xml
-            biblioteca/target/pmd.xml
+            target/site/jacoco/jacoco.xml
+            target/checkstyle-result.xml
+            target/pmd.xml
